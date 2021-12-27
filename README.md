@@ -2,6 +2,12 @@
 Given an image of a document captured under real world conditions (eg: by a smartphone camera), this work aims to enhance the contents of said document. This is done by offsetting the shadows/lighting irregularities on the sheet as well as enhancing the contrast of the image to highlight the details.
 This is designed to work on documents of any kind, that have a combination of text and images.
 
+## Prerequisites:
+
+1. Numpy
+2. Matplotlib
+3. OpenCV2
+
 ## How to run:
 1. Clone the repository
 2. Load input images into the Input directory (by default: 'inputs' folder in repo)
