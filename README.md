@@ -11,8 +11,7 @@ This is designed to work on documents of any kind, that have a combination of te
 ## How to run:
 1. Clone the repository
 2. Load input images into the Input directory (by default: 'inputs' folder in repo)
-3. For all defaults, run the command: `python doc_enhancer.py`
-4. All the enhanced images will be saved in the output folder (by default: 'outputs' folder in repo)
+3. Run: `python doc_enhancer.py` (Images will be saved in 'outputs' folder)
   
 ## Additional Options:
 1. To change the contrast level, pass argument `--contrast_val` along with your desired integer value. (default is 3)
