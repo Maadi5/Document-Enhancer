@@ -23,8 +23,8 @@ def unshadow(img):
   result_planes = []
   result_norm_planes = []
   for plane in rgb_planes:
-      dilated_img = cv2.dilate(plane, np.ones((4,4), np.uint8))   #small kernel size used to avoid colour bleed on the reconstructed image
-      bg_img = cv2.medianBlur(dilated_img, 101)
+      dilated_img = cv2.dilate(plane, np.ones((3,3), np.uint8))   #small kernel size used to avoid colour bleed on the reconstructed image
+      bg_img = cv2.medianBlur(dilated_img, 81)
       #bg_img = dilated_img
       diff_img = 255 - cv2.absdiff(plane, bg_img)
       norm_img = cv2.normalize(diff_img,None, alpha=0, beta=255, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_8UC1)
