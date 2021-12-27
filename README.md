@@ -6,7 +6,7 @@ This is designed to work on documents of any kind, that have a combination of te
 
 1. Numpy
 2. Matplotlib
-3. OpenCV2
+3. OpenCV
 
 ## How to run:
 1. Clone the repository
