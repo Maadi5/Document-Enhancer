@@ -13,4 +13,4 @@ This is designed to work on documents of any kind, that have a combination of te
 2. To change the input directory, pass argument `--inputs_dir` along with your desired path
 3. To change the output directory, pass argument `--outputs_dir` along with your desired path 
 ### Example:
-`python doc_enhancer.py --inputs_dir './inps'  --outputs_dir  './outps'  --contrast_val  2`
+`python doc_enhancer.py --inputs_dir ./inps  --outputs_dir  ./outps  --contrast_val  2`
