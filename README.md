@@ -17,5 +17,5 @@ This is designed to work on documents of any kind, that have a combination of te
 1. To change the contrast level, pass argument `--contrast_val` along with your desired integer value. (default is 3)
 2. To change the input directory, pass argument `--inputs_dir` along with your desired path
 3. To change the output directory, pass argument `--outputs_dir` along with your desired path 
-### Example:
-`python doc_enhancer.py --inputs_dir ./inps  --outputs_dir  ./outps  --contrast_val  2`
+  ### Example:
+  `python doc_enhancer.py --inputs_dir ./inps  --outputs_dir  ./outps  --contrast_val  2`
